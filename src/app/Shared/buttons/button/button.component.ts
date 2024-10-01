@@ -3,7 +3,7 @@ export type ButtonType = 'button' | 'submit';
 @Component({
   selector: 'app-button',
   templateUrl: './button.component.html',
-  styleUrl: './button.component.css'
+  styleUrl: './button.component.scss'
 })
 export class ButtonComponent {
   @Input() type: ButtonType;

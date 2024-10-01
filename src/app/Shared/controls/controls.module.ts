@@ -1,12 +1,26 @@
-import { NgModule } from '@angular/core';
+import { NgModule, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { InputModule } from './input/input.module';
 
 
 
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule
+    CommonModule,
+    InputModule
+  ],
+  exports: [
+    InputModule
   ]
 })
-export class ControlsModule { }
+
+export class ControlsModule  { 
+ 
+ 
+  ngOnInit(): void { } 
+
+}
+
+
+ 
