@@ -4,7 +4,7 @@
     padding-bottom: 8px;
 
     &__label {
-        display: flex;
+        display: block;
         margin: 0 0 6px ;
     }
 
@@ -32,6 +32,8 @@
 
     &_inline {
         display: flex;
+        // align-items: center;
+        // justify-content: space-between;
         >.form-field__label {
             padding: 10px 12px 10px 0;
             width: 30%;
