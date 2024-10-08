@@ -11,6 +11,8 @@ export class FormFieldComponent {
   @Input() required!: boolean;
   @Input() isInLine!: boolean;
   @Input() control!: AbstractControl;
+  @Input() patternError!: String;
+
 
   constructor() {
     this.isInLine = true;
